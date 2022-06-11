@@ -17,6 +17,11 @@ pip install pyezjson
 ```sh
 pip install git+https://github.com/M4hbod/pyezjson.git
 ```
+### NOTE:
+```sh
+# You Can Install `ujson` for a better speed.
+pip install ujson
+```
 
 # Usage
 
@@ -126,4 +131,5 @@ mydb.reset()
 Result in my_database.json:
 
 {}
+"""
 ```
