@@ -1,5 +1,8 @@
 import contextlib
-import json
+try:
+	import ujson as json # ujson is faster
+except ModuleNotFoundError:
+	import json
 
 class Connect:
     def __init__(self, db_name = 'database.json', indent = None):
